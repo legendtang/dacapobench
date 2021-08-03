@@ -506,7 +506,7 @@ diff -urNw daytrader/plugins/pom.xml ../daytrader-new/plugins/pom.xml
 +                            <jvm-version>1.8</jvm-version>
                              <source-repository>~/.m2/repository/</source-repository>
                              <source-repository>http://repository.apache.org/snapshots/</source-repository>
-                             <source-repository>http://repo1.maven.org/maven2/</source-repository>
+                             <source-repository>https://repo1.maven.org/maven2/</source-repository>
 diff -urNw daytrader/pom.xml ../daytrader-new/pom.xml
 --- daytrader/pom.xml	2018-03-12 16:45:38.000000000 +1100
 +++ ../daytrader-new/pom.xml	2018-03-23 08:24:03.086135168 +1100
@@ -526,7 +526,7 @@ diff -urNw daytrader/pom.xml ../daytrader-new/pom.xml
 +    <repositories>
 +        <repository>
 +            <id>codehaus.snapshots</id>
-+            <url>http://central.maven.org/maven2/</url>
++            <url>https://repo1.maven.org/maven2/</url>
 +        </repository>
 +    </repositories>
 +    

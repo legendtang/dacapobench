@@ -6,7 +6,7 @@
  
 -base-sf.loc=http://downloads.sourceforge.net
 +base-sf.loc=https://downloads.sourceforge.net
- # repo.maven.apache.org is the same as repo2.maven.org
+ # repo.maven.apache.org is the same as repo1.maven.org
 -base-maven.loc=http://repo.maven.apache.org/maven2
 +base-maven.loc=https://repo.maven.apache.org/maven2
  
